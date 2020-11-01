@@ -1,4 +1,5 @@
 //contractAddr: 0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B
+// int8 takes more gas than int256
 
 pragma solidity >=0.5.3 <0.7.3;
 
