@@ -1,0 +1,24 @@
+ Proof of Work vs Proof of Stake
+   -consensus mechanisms
+
+1.	Both consensus mechanism requires initial  invesments, for PoW it is in the form of buying components (Creating a powerful nodes to find the nounce to achieve required hash) and for PoS it is in the form of deposit (where he have to initially buy the stakes).
+
+2.	when the transactions are initiated it will stored in the unconfirmed pool of transactions.
+PoW – miners selects the transactions from the pool put it in a block, try to find the nounce inorder to achieve the required nounce. This process is known as mining.
+PoS -  no mining is involved it is based on minting/forging. Validators validates the transactions and attest it.
+
+3.	PoW is the most popular consensus mechanism but also it comes with a drawback as it requires more electricity power to operate the node than PoS. PoS is more cost efficient when compared to PoW.
+
+4.	51% consensus
+In PoW – the hackers have to gain the control over 51% of nodes.(If the majority mining pools comes together, then this 51% consensus is possible. In 2019 , About 52% of Ethereum coins was mined by 2 pools, ethermine and sparkpool )
+In PoS – the hackers have to own the 51% stake.
+
+5.	In PoW, the node with more computational power will likely to win the reward, as in PoS the node with higher owning stake will likely to get the chance to validate.
+
+6.	Bitcoin, Ethereum 1.0 works on PoW
+whereas Ethereum 2.0 works on PoS.
+
+7.	Most of the blockchain technologies are going with the PoS due to its accessability, scalability.
+
+
+
