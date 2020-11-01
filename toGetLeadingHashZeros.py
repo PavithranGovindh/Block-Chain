@@ -1,5 +1,5 @@
 /*cant able to find the nonce when i try to find the 5 leading zeros or more.
-but from the results we can prove the time decreases when leading zeros decreases and vice versa
+but from the results we can understand --> the time decreases when leading zeros decreases and vice versa
 
 1. for 1 leading Zeros  ----->     {'Block Number': 1, 'Trxns': 'Record1 Record2 Record3 Record4 Record5', 'nonce': 23, 'precioushash': ' ', 'hash': '0a3b29b53fecdb5b199f6e93b0c07a7a102e6934f6d87379f0f5361d9c46db86'}
 Runtime of the program is 0.06358885765075684
