@@ -1,3 +1,7 @@
+// contract address 0x09d68286874f5e5C74f7229127d125F8e40E0494
+
+
+
 pragma solidity ^0.5.0;
 
 contract Bank {
@@ -36,6 +40,14 @@ contract Bank {
     
     function showBalance() public view returns(uint256){
         return accountNumber[msg.sender].totalAmount/1 ether;
+    }
+    
+    function moneyTransferEther (address payable _receiverAddr, uint256 _amount) payable public{                 //Money transfered from contract Bank account to EOA directly 
+        addr = msg.sender;
+        accountNumber[addr].amount = _amount;
+        assert(accountNumber[addr].totalAmount > _amount);
+        _receiverAddr.transfer(accountNumber[addr].amount*1 ether);
+        accountNumber[addr].totalAmount = accountNumber[addr].totalAmount-accountNumber[addr].amount;
     }
     
 }
